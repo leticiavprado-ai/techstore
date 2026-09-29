@@ -1,0 +1,35 @@
+.btn-destaque {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.btn-destaque:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 768px) {
+    .menu-principal {
+        display: flex;
+        flex-direction: column;
+    }
+} 
+* {
+    box-sizing: border-box;
+} 
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.btn-destaque {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.btn-destaque:hover {
+    background-color: #0056b3;
+} 
+@media (max-width: 768px) {
+    .menu-principal {
+        flex-direction: column;
+    }
+}
